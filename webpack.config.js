@@ -8,6 +8,14 @@ var config = {
   resolve: {
     extensions: [".ts", ".tsx", ".js"]
   },
+  optimization: {
+    minimize: false
+  },
+
+  devServer: {
+    contentBase: path.resolve(__dirname),
+    watchContentBase: true
+  },
 
   module: {
     rules: [
