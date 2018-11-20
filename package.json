@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack",
+    "start:dev": "webpack-dev-server",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'"
   },
   "keywords": [],
@@ -23,6 +23,7 @@
   "devDependencies": {
     "tslint": "^5.11.0",
     "tslint-react": "^3.6.0",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   }
 }
